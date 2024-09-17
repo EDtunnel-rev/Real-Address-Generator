@@ -275,7 +275,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For questions or feedback, please contact the project maintainer:
 
 - **Email**: [root@bch.us.kg](mailto:root@bch.us.kg)
-- **GitHub Issues**: Open an issue in the [GitHub repository]([https://github.com/EDtunnel-rev/Real-Address-Generator/issues])
+- **GitHub Issues**: Open an issue in the [GitHub repository](https://github.com/EDtunnel-rev/Real-Address-Generator/issues)
 
 ## Appendices
 
