@@ -1,5 +1,7 @@
 # Real-Address-Generator
 
+Thanks to the origional author:https://github.com/Adonis142857/
+
 ## Overview
 
 The **Real-Address-Generator** is a sophisticated tool designed to generate realistic addresses and related personal information. This project is particularly useful for developers and testers who need to simulate user data in a realistic manner. By utilizing geographic data from various sources, this service provides an accurate and dynamic way to generate user profiles for testing and development purposes.
