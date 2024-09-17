@@ -254,4 +254,65 @@ curl "https://your-cloudflare-worker-url/api/generate-user?country=CA"
 欢迎对实际地址生成器项目做出贡献。以下是如何贡献：
 
 1. **Fork 仓库**：创建个人的仓库副本以进行更改。
-2. **创建分支**：
+2. **创建分支**：为您的功能或错误修复创建一个新分支。
+3. **进行更改**：实施更改并确保其符合项目的编码标准。
+4. **提交 Pull Request**：提供详细描述您的更改并提交 Pull Request 进行审查。
+
+### 贡献指南
+
+- **遵循编码风格**：确保您的代码遵循项目中的编码风格和最佳实践。例如，保持代码整洁、使用一致的命名约定、编写清晰的注释等。
+- **文档化代码**：所有新的功能和更改都应有适当的文档说明。更新相关的文档和 README 文件，以反映代码中的任何更改。
+- **编写测试**：为新功能或修复的 bug 编写单元测试和集成测试，以确保代码的可靠性和稳定性。
+- **代码审查**：在提交 Pull Request 时，请确保代码经过适当的审查，并遵循项目的代码审查流程。接受审查反馈并进行必要的更改。
+- **遵循 Git 流程**：使用清晰、描述性的提交消息，并遵循项目的 Git 流程。提交消息应准确描述更改内容和目的。
+
+### 如何贡献
+
+1. **Fork 项目**：访问 [项目 GitHub 页面](https://github.com/EDtunnel-rev/Real-Address-Generator) 并点击 "Fork" 按钮，将项目复制到您的 GitHub 帐户中。
+2. **克隆仓库**：将 Fork 的仓库克隆到本地计算机：
+   ```sh
+   git clone https://github.com/your-username/Real-Address-Generator.git
+   ```
+3. **创建功能分支**：切换到您的本地仓库并创建一个新的功能分支：
+   ```sh
+   git checkout -b your-feature-branch
+   ```
+4. **进行更改**：在功能分支中进行代码更改或添加新功能。确保在提交更改之前测试代码。
+5. **提交更改**：将更改提交到本地仓库：
+   ```sh
+   git add .
+   git commit -m "描述您的更改"
+   ```
+6. **推送更改**：将更改推送到您的 GitHub 仓库：
+   ```sh
+   git push origin your-feature-branch
+   ```
+7. **创建 Pull Request**：在 GitHub 上访问您的 Fork 项目，并创建一个新的 Pull Request。描述您的更改，并将其提交到主仓库的合并请求中。
+
+## 许可证
+
+本项目使用 MIT 许可证。有关更多信息，请参见 [LICENSE](LICENSE) 文件。
+
+## 联系方式
+
+如有任何问题或反馈，请联系项目维护者：
+
+- **电子邮件**： [root@bch.us.kg](mailto:root@bch.us.kg)
+- **GitHub 问题**：在 [GitHub 仓库](https://github.com/EDtunnel-rev/Real-Address-Generator/issues) 中打开一个问题
+
+## 附录
+
+### 术语表
+
+- **Cloudflare Workers**：一种无服务器执行环境，允许开发人员在边缘运行 JavaScript 代码。Cloudflare Workers 使开发人员能够在全球范围内高效地运行和部署代码，而无需管理传统的服务器基础设施。
+- **Nominatim API**：一个地理编码服务，提供来自 OpenStreetMap 的地理数据。Nominatim 可以将地址转换为地理坐标（地理编码），或将地理坐标转换为地址（反向地理编码）。
+
+### 参考资料
+
+- [Cloudflare Workers 文档](https://developers.cloudflare.com/workers/)：提供关于如何使用 Cloudflare Workers 的详细文档和示例。
+- [Nominatim API 文档](https://nominatim.org/release-docs/develop/api/Search/)：提供关于 Nominatim API 的使用说明和参数详细信息。
+
+### 其他资源
+
+- [JavaScript 最佳实践](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Best_practices)：有关编写高质量 JavaScript 代码的最佳实践和技巧。
+- [地理编码与反向地理编码](https://en.wikipedia.org/wiki/Geocoding)：有关地理编码和反向地理编码的基础知识和应用介绍。
